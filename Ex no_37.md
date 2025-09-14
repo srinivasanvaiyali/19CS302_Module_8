@@ -45,3 +45,53 @@ Explanation
 When we sum the integers 10 and 4, we get the integer 14. When we subtract the second number 4 from the first number 10, we get 6 as their difference.
 
 When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
+
+
+# EX 31 C program to find the smallest among three numbers using Structure.
+
+# DATE:
+
+# AIM:
+To write a C program to find the smallest among three numbers using Structure.
+
+# Algorithm:
+
+1.Start the program and define a structure with three integer fields.
+
+2.Declare a structure variable to store the three numbers.
+
+3.Read the values of the three numbers from the user.
+
+4.Compare the three numbers to find the smallest.
+
+5.Display the smallest number and end the program.
+
+Program:
+```
+/*
+C program to find the smallest among three numbers using Structure.
+Developed by: SRINIVASAN V
+RegisterNumber:  212222043008
+*/
+```
+```
+#include<stdio.h>
+int main()
+{
+int i,n,sum=0,arr[100];
+scanf("%d",&n);
+{
+for(i=0;i<n;i++)
+scanf("%d",&arr[i]);
+for(i=0;i<n;i++)
+sum=sum+arr[i];
+i++;
+}printf("%d",sum);
+}
+```
+# Output:
+<img width="1674" height="385" alt="441348000-50a5138e-789e-4b45-ab4c-17ee6e0eb62d" src="https://github.com/user-attachments/assets/d6446b5b-ffa2-4d31-aff1-38c0e78fdc15" />
+
+# RESULT:
+Thus, the program is executed and verified successfully.
+
